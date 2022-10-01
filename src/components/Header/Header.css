@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Cabin&display=swap");
+@import "animate.css";
+
+body {
+  font-family: "Cabin", Arial, Helvetica, sans-serif;
+}
+
+.desktop {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .mobile {
+    display: none;
+  }
+  .desktop {
+    display: contents;
+  }
+
+  .Bar {
+    background-color: #ff441f;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .Bar p {
+    display: flex;
+    font-size: 1.3em;
+    color: #fff;
+    font-family: "Cabin", Arial, Helvetica, sans-serif;
+  }
+
+  .Bar button {
+    margin: auto 0px;
+    background-color: #fff;
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+  }
+
+  .Bar img {
+    width: 40px;
+  }
+
+  .navbar {
+    display: flex;
+    justify-content: space-evenly;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.24);
+  }
+
+  nav input {
+    background-color: rgb(245, 245, 245);
+    border: none;
+    height: 40px;
+    width: 200px;
+    border-radius: 5px;
+  }
+
+  nav h3 {
+    color: #ff441f;
+    font-size: 2em;
+  }
+  .logo img {
+    width: 75px;
+  }
+
+  .cart {
+    display: flex;
+    gap: 30px;
+  }
+}

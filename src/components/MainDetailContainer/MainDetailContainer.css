@@ -1,0 +1,48 @@
+.MainContainer {
+  display: flex;
+  width: 330px;
+  height: 150px;
+  box-shadow: 3px 3px 3px 3px rgba(78, 78, 78, 0.295);
+  border-radius: 6px;
+}
+
+.MainText {
+  display: flex;
+  flex-direction: column;
+  margin: 50px 0;
+}
+
+.MainText .MainPrice {
+  margin: 0 10px;
+  display: flex;
+  justify-content: space-between;
+  height: 500px;
+  width: 200px;
+}
+
+.MainDetailText {
+  margin-top: 100px;
+}
+
+.MainDetailContainer {
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.MainImage img {
+  width: 100px;
+}
+
+.SpanColor {
+  font-weight: 700;
+  color: #ff441f;
+}
+
+.MainPrice {
+  background-color: rgba(233, 233, 233, 0.678);
+  border-radius: 10px;
+  height: 25px !important;
+}

@@ -1,0 +1,18 @@
+.LoginIcon {
+  color: rgb(75, 75, 75);
+  margin: auto;
+}
+
+.LoginIcon {
+  display: flex;
+}
+
+.Bilogin {
+  margin: 5px 0;
+  font-size: 35px;
+}
+
+.LoginIcon p {
+  margin-top: 10px;
+  padding: 0px 5px;
+}

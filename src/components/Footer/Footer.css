@@ -1,0 +1,17 @@
+footer {
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: space-evenly;
+  background-color: #ff441f;
+  color: #fff;
+}
+
+footer .FooLogo img {
+  width: 50px;
+}
+
+footer .Social {
+  font-size: 40px;
+}

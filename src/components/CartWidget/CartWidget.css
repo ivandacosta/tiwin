@@ -1,0 +1,12 @@
+.CartWidget p {
+  font-size: 2em;
+  color: rgb(75, 75, 75);
+}
+
+.CategoryEfect {
+  transition: all 0.5s;
+}
+
+.CategoryEfect:hover {
+  width: 150px;
+}
